@@ -1,0 +1,37 @@
+version: '2'
+services:
+    wiremock:
+        image: "rodolpheche/wiremock"
+        container_name: "wiremock"
+        volumes:
+            - ../mockserver:/home/wiremock
+        command: --verbose --local-response-templating
+        expose:
+            - "8080"
+        ports:
+            - "8085:8080"
+        networks:
+            selenium-network:
+                aliases:
+                    - mockserver
+    frontend:
+        image: "abiosoft/caddy"
+        container_name: "frontend"
+        environment:
+            - ENVIRONMENT_ACTIVE=stage
+            - CONFIG_ENVIRONMENT_ACTIVE=selenium
+            - BACKEND_URL=http://mockserver:8080
+        volumes:
+            - ${FRONTENDDIR}/build:/srv
+            - ${FRONTENDDIR}/deploy/Caddyfile:/etc/Caddyfile
+        ports:
+            - "7999:80"
+        networks:
+            selenium-network:
+                aliases:
+                    - webserver
+
+
+networks:
+    selenium-network:
+        driver: bridge

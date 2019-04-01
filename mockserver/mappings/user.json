@@ -1,0 +1,24 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/user"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "user": {
+        "email": "bla@bla.de",
+        "username": "bla",
+        "bio": "",
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyZjQxMThmZi1mODBhLTQ5MTctOWIxNi0wYzRlZWYxZWEyNWQiLCJleHAiOjMzMTA3NjU5OTU1fQ.3krFlOnLz01OZkPFrJnZlPUOE9wv9tzgbp3KyIP131aG-INPyMU9zIHi0N2hlxkzK_7m2pskeWqlx5RIuwx_wA"
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

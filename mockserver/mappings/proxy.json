@@ -1,0 +1,10 @@
+{
+    "priority": 100000,
+    "request": {
+        "method": "ANY",
+        "urlPattern": "/.*"
+    },
+    "response": {
+        "proxyBaseUrl": "https://conduit.productionready.io/api"
+    }
+}

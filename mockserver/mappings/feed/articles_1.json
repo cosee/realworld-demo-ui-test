@@ -1,0 +1,197 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/articles?limit=10&offset=30"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "articles": [
+        {
+          "title": "bane raho pagla",
+          "slug": "bane-raho-pagla-nufm5k",
+          "body": "jasdifjosa",
+          "createdAt": "2019-02-21T06:11:42.796Z",
+          "updatedAt": "2019-02-21T06:11:42.796Z",
+          "tagList": [],
+          "description": "coporate",
+          "author": {
+            "username": "girwar789",
+            "bio": "giajfdkajsdlfjads;f;jasdfojasdof",
+            "image": "http://tineye.com/images/widgets/mona.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 2
+        },
+        {
+          "title": "hghgh",
+          "slug": "hghgh-1quiw6",
+          "body": "regtrjemgijg",
+          "createdAt": "2019-02-21T04:19:59.105Z",
+          "updatedAt": "2019-02-21T04:19:59.105Z",
+          "tagList": [],
+          "description": "uyoyoyo",
+          "author": {
+            "username": "yumyum",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 1
+        },
+        {
+          "title": "wgre",
+          "slug": "wgre-h537r9",
+          "body": "ergerge",
+          "createdAt": "2019-02-21T03:08:02.787Z",
+          "updatedAt": "2019-02-21T03:08:02.787Z",
+          "tagList": [
+            "egerg"
+          ],
+          "description": "erg",
+          "author": {
+            "username": "hasanowski",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 2
+        },
+        {
+          "title": "BBB",
+          "slug": "bbb-36r832",
+          "body": "BBB",
+          "createdAt": "2019-02-21T03:01:50.165Z",
+          "updatedAt": "2019-02-21T03:01:50.165Z",
+          "tagList": [],
+          "description": "BBB",
+          "author": {
+            "username": "janepham954",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 2
+        },
+        {
+          "title": "AAA2",
+          "slug": "aaa-nb4blj",
+          "body": "AAA",
+          "createdAt": "2019-02-21T02:55:33.867Z",
+          "updatedAt": "2019-02-21T04:03:10.199Z",
+          "tagList": [],
+          "description": "AAA",
+          "author": {
+            "username": "janepham954",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 1
+        },
+        {
+          "title": "Test Article",
+          "slug": "test-article-ucq74p",
+          "body": "More test",
+          "createdAt": "2019-02-21T02:34:09.047Z",
+          "updatedAt": "2019-02-21T02:34:09.047Z",
+          "tagList": [],
+          "description": "This is aboujt test",
+          "author": {
+            "username": "teskabau",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "Serwus",
+          "slug": "serwus-k5g199",
+          "body": "serwus",
+          "createdAt": "2019-02-20T22:38:21.819Z",
+          "updatedAt": "2019-02-20T22:38:21.819Z",
+          "tagList": [],
+          "description": "serwus",
+          "author": {
+            "username": "kasper",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "Formation Entity Framework",
+          "slug": "formation-entity-framework-yx296a",
+          "body": "blablabalbalablablablablablalablablablablabalbalablablablablaalbalb",
+          "createdAt": "2019-02-20T20:31:09.692Z",
+          "updatedAt": "2019-02-20T20:31:09.692Z",
+          "tagList": [
+            "dev",
+            "database",
+            "c#",
+            "entitiy"
+          ],
+          "description": "Entity Framework",
+          "author": {
+            "username": "jdashasjkh",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "mklmkl;",
+          "slug": "mklmkl-swpqc6",
+          "body": "mklmkl;fgy",
+          "createdAt": "2019-02-20T20:27:15.118Z",
+          "updatedAt": "2019-02-20T20:27:15.118Z",
+          "tagList": [],
+          "description": "mklmkl;",
+          "author": {
+            "username": "jdashasjkh",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "test",
+          "slug": "test-t5g3zk",
+          "body": "test",
+          "createdAt": "2019-02-20T20:21:26.869Z",
+          "updatedAt": "2019-02-20T20:21:26.869Z",
+          "tagList": [],
+          "description": "test",
+          "author": {
+            "username": "testfeb2019",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        }
+      ],
+      "articlesCount": 500
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

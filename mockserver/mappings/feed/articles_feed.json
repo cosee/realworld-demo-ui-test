@@ -1,0 +1,19 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "urlPattern": "\/articles\/feed\\?.*"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "articles": [],
+      "articlesCount": 0
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

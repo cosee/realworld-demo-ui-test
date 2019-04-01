@@ -1,0 +1,35 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/articles/some-title"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "article": {
+        "id": "60748ad4-fd92-48c3-952d-288224152882",
+        "slug": "some-title",
+        "title": "some title",
+        "description": "about something",
+        "body": "very important",
+        "favorited": false,
+        "favoritesCount": 0,
+        "createdAt": "2019-02-21T12:29:09.331Z",
+        "updatedAt": "2019-02-21T12:29:09.331Z",
+        "tagList": [],
+        "author": {
+          "username": "bla",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

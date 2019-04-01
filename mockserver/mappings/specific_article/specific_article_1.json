@@ -1,0 +1,35 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/articles/hahaha"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "article": {
+        "id": "e5e4cf44-dd42-44ea-920a-f6c7923d8628",
+        "slug": "hahaha",
+        "title": "hahaha",
+        "description": "lsdfsdf",
+        "body": "sdfsdf",
+        "favorited": false,
+        "favoritesCount": 0,
+        "createdAt": "2019-02-21T11:34:35.007Z",
+        "updatedAt": "2019-02-21T11:34:35.007Z",
+        "tagList": [],
+        "author": {
+          "username": "bla",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/tags"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "tags": [
+        "dragons",
+        "test",
+        "training",
+        "tags",
+        "as",
+        "coffee",
+        "money",
+        "flowers",
+        "caramel",
+        "sugar",
+        "happiness",
+        "japan",
+        "sushi",
+        "cars",
+        "cookies",
+        "animation",
+        "well",
+        "baby",
+        "clean"
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

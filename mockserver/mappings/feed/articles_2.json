@@ -1,0 +1,197 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "url": "/articles?limit=10&offset=20"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "articles": [
+        {
+          "title": "gfhgjh",
+          "slug": "gfhgjh-hfllro",
+          "body": "hbjnlk",
+          "createdAt": "2019-02-20T20:15:17.858Z",
+          "updatedAt": "2019-02-20T20:15:17.858Z",
+          "tagList": [],
+          "description": "hbjkn",
+          "author": {
+            "username": "sandi permana",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "my article",
+          "slug": "my-article-p9ly5v",
+          "body": "hello world",
+          "createdAt": "2019-02-20T20:12:53.978Z",
+          "updatedAt": "2019-02-20T20:12:53.978Z",
+          "tagList": [],
+          "description": "bs",
+          "author": {
+            "username": "tali",
+            "bio": null,
+            "image": "sdf",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 1
+        },
+        {
+          "title": "guighghk",
+          "slug": "guighghk-oc9ozx",
+          "body": "jhgkghkjhgkjhgkj",
+          "createdAt": "2019-02-20T19:53:33.705Z",
+          "updatedAt": "2019-02-20T19:53:33.705Z",
+          "tagList": [],
+          "description": "hgjh",
+          "author": {
+            "username": "uihuh",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 1
+        },
+        {
+          "title": "Title",
+          "slug": "title-76sdlb",
+          "body": "# Title\n\n## subtitle",
+          "createdAt": "2019-02-20T19:48:46.583Z",
+          "updatedAt": "2019-02-20T19:49:13.619Z",
+          "tagList": [
+            "tag3",
+            "tag2",
+            "tag1"
+          ],
+          "description": "Dunno",
+          "author": {
+            "username": "o13037016",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "ayeeee",
+          "slug": "ayeeee-cu6p9t",
+          "body": "ayeeeeeeee!",
+          "createdAt": "2019-02-20T19:24:34.369Z",
+          "updatedAt": "2019-02-20T19:24:34.369Z",
+          "tagList": [],
+          "description": "nada really",
+          "author": {
+            "username": "brokenspacebar",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "Yosemite",
+          "slug": "yosemite-ak3201",
+          "body": "Pardner.",
+          "createdAt": "2019-02-20T19:22:39.931Z",
+          "updatedAt": "2019-02-20T21:58:38.201Z",
+          "tagList": [
+            "six shooter",
+            "test"
+          ],
+          "description": "Sam",
+          "author": {
+            "username": "BugsBunny",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 1
+        },
+        {
+          "title": "anjing",
+          "slug": "anjing-e8mgc4",
+          "body": "anjing is something or nothing",
+          "createdAt": "2019-02-20T19:21:01.876Z",
+          "updatedAt": "2019-02-20T19:21:01.876Z",
+          "tagList": [],
+          "description": "whats do you know about anjing",
+          "author": {
+            "username": "hgvihvkvk",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "teste",
+          "slug": "teste-dcxsxj",
+          "body": "teste",
+          "createdAt": "2019-02-20T19:20:58.508Z",
+          "updatedAt": "2019-02-20T19:20:58.508Z",
+          "tagList": [],
+          "description": "teste",
+          "author": {
+            "username": "cleitonb",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "Elmer",
+          "slug": "elmer-iqgi99",
+          "body": "Beware",
+          "createdAt": "2019-02-20T19:11:06.046Z",
+          "updatedAt": "2019-02-20T19:11:06.046Z",
+          "tagList": [],
+          "description": "Fudd",
+          "author": {
+            "username": "BugsBunny",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        },
+        {
+          "title": "wer",
+          "slug": "wer-mfazoq",
+          "body": "rwerwerwe",
+          "createdAt": "2019-02-20T19:08:18.427Z",
+          "updatedAt": "2019-02-20T19:08:18.427Z",
+          "tagList": [],
+          "description": "werwe",
+          "author": {
+            "username": "samsung1",
+            "bio": null,
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          },
+          "favorited": false,
+          "favoritesCount": 0
+        }
+      ],
+      "articlesCount": 500
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}

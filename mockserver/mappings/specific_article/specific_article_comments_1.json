@@ -1,0 +1,31 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "urlPattern": "\/articles\/.*\/comments"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 500,
+    "jsonBody": {
+      "comments": [
+        {
+          "id": "c4c52f7e-225c-4072-8df0-cef274d7bc25",
+          "body": "LOL",
+          "createdAt": "2019-02-21T11:34:41.427Z",
+          "updatedAt": "2019-02-21T11:34:41.427Z",
+          "author": {
+            "username": "bla",
+            "bio": "",
+            "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+            "following": false
+          }
+        }
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Powered-By": "Phusion Passenger 4.0.60"
+    }
+  }
+}
